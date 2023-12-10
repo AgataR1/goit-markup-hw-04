@@ -11,6 +11,7 @@
   --slate: #434455;
   --white: #ffffff;
   --cornflower: #e7e9fc;
+  --grey: hsla(237, 18%, 22%, 0.7);
 }
 
 body {
@@ -389,4 +390,11 @@ ol {
 }
 .web-menu > div {
   gap: 332px;
+}
+.first-section {
+  background-image: linear-gradient(var(--grey), var(--grey)),
+    url(../images/people-office.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  max-width: 1440px;
 }
