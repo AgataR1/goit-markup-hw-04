@@ -398,3 +398,10 @@ ol {
   background-position: center;
   max-width: 1440px;
 }
+.solutions-list-item {
+  border-radius: 4px;
+  background-color: var(--cloud);
+}
+.icon {
+  margin: 24px 100px;
+}
