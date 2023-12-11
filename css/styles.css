@@ -409,3 +409,25 @@ ol {
   gap: 24px;
   margin-top: 8px;
 }
+.footer-social-link {
+  display: flex;
+  gap: 16px;
+}
+.page-footer {
+  display: flex;
+  gap: 120px;
+}
+.page-footer .container {
+  width: 264px;
+  padding: 0;
+  margin-left: 156px;
+  margin-right: 0;
+}
+.social-media > p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  color: var(--white);
+  margin-bottom: 16px;
+}
