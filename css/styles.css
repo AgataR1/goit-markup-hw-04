@@ -151,6 +151,16 @@ ol {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  width: 264px;
+  margin-bottom: 8px;
+}
+
+.photo-div-header {
+  color: var(--navy-blue);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
   width: 290px;
   margin-bottom: 8px;
 }
