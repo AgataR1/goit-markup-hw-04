@@ -139,6 +139,7 @@ ol {
 }
 .first-section-button:hover {
   background-color: var(--ocean);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
 .first-section-button:focus {
