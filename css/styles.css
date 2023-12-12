@@ -225,11 +225,15 @@ ol {
   color: var(--white);
   background-color: var(--ocean);
   border: 1px solid transparent;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .portfolio-button:focus {
   color: var(--white);
   background-color: var(--ocean);
   border: 1px solid transparent;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .contact {
@@ -428,7 +432,6 @@ ol {
   width: 264px;
   padding: 0;
   margin-left: 156px;
-  margin-right: 0;
 }
 .social-media > p {
   font-size: 16px;
@@ -505,10 +508,10 @@ ol {
   justify-content: center;
 }
 .social-media-link:hover {
-  background-color: var(--ocean);
+  background-color: var(--green);
 }
 .social-media-link:focus {
-  background-color: var(--ocean);
+  background-color: var(--green);
 }
 .icon-image {
   fill: var(--cloud);
@@ -545,4 +548,16 @@ ol {
 }
 .footer-div > .container {
   margin-right: 120px;
+}
+.social-links-item > .social-media-link:hover,
+.social-links-item > .social-media-link:focus {
+  background-color: var(--ocean);
+}
+.photo {
+  display: block;
+}
+.photo:hover,
+.photo:focus {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
