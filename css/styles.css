@@ -422,7 +422,7 @@ ol {
   gap: 16px;
 }
 
-.page-footer .container {
+.footer-container {
   width: 264px;
   padding: 0;
   margin-left: 156px;
@@ -537,7 +537,7 @@ ol {
   align-items: center;
   justify-content: center;
 }
-.footer-div > .container {
+.footer-container {
   margin-right: 120px;
 }
 .social-links-item > .social-media-link:hover,
