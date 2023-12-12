@@ -202,6 +202,7 @@ ol {
   color: var(--cloud);
   letter-spacing: 0.02em;
   max-width: 264px;
+  margin-top: 17.5px;
 }
 .link {
   text-decoration: none;
@@ -381,9 +382,7 @@ ol {
 .logo {
   align-items: center;
 }
-.page-footer-description {
-  max-width: 264px;
-}
+
 .portfolio-main-section {
   padding: 96px 0 120px 0;
 }
@@ -505,7 +504,9 @@ ol {
   align-items: center;
   justify-content: center;
 }
-.social-media-link:hover,
+.social-media-link:hover {
+  background-color: var(--ocean);
+}
 .social-media-link:focus {
   background-color: var(--ocean);
 }
@@ -521,7 +522,6 @@ ol {
 .footer-div {
   display: flex;
   align-items: baseline;
-  gap: 120px;
 }
 .socials {
   font-weight: 500;
@@ -542,4 +542,7 @@ ol {
   border-radius: 50%;
   align-items: center;
   justify-content: center;
+}
+.footer-div > .container {
+  margin-right: 120px;
 }
