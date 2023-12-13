@@ -322,7 +322,7 @@ ol {
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
-.page-footer > .container > a {
+.page-footer > container > a {
   margin-bottom: 16px;
   display: inline-block;
 }
@@ -422,8 +422,7 @@ ol {
   gap: 16px;
 }
 
-.social-media > p {
-  font-size: 16px;
+.socials {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.32px;
@@ -436,7 +435,7 @@ ol {
   gap: 24px;
   justify-content: center;
 }
-.client-list > li {
+.client-list-item {
   width: 168px;
   height: 88px;
 }
